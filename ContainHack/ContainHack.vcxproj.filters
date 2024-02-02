@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="utils\GameOffsetsData.h" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d12\D3D12Hook.cpp">
+      <Filter>d3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Pattern\Pattern.cpp">
+      <Filter>utils\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Pattern\SSE2PatternFind.cpp">
+      <Filter>utils\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\unrealutils.h">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\PluginManager.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\MainPlugin\MainPlugin.cpp">
+      <Filter>MainPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg.hpp">
+      <Filter>MainPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logging.h" />
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d12\D3D12Hook.h">
+      <Filter>d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\buffer.h">
+      <Filter>minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde32.h">
+      <Filter>minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde64.h">
+      <Filter>minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\pstdint.h">
+      <Filter>minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table32.h">
+      <Filter>minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table64.h">
+      <Filter>minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Pattern\Pattern.h">
+      <Filter>utils\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Pattern\stb.h">
+      <Filter>utils\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\include\MinHook.h">
+      <Filter>minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\Plugin.h">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\PluginManager.h">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\MainPlugin\MainPlugin.h">
+      <Filter>MainPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{b5870994-4b53-49c6-8f94-1b2aeceb22c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{8f57153f-09c2-4948-aa78-71832164b4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook\include">
+      <UniqueIdentifier>{a56a1433-c4be-4d44-88de-094a868cd5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook\src">
+      <UniqueIdentifier>{18eb71cc-7d3c-450a-98e9-21945dc95b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d12">
+      <UniqueIdentifier>{a40a114c-4c9a-4855-9c7a-084dd888cbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook\src\hde">
+      <UniqueIdentifier>{eed62a58-ee50-435e-b34e-b48c225012b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin">
+      <UniqueIdentifier>{419d60a6-145a-4dce-9f36-fe57feee119b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{b3398970-6a12-477d-b25e-bcdba40bb8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{09f0dbd5-5a6c-442f-a88f-94f513cc7696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\pattern">
+      <UniqueIdentifier>{11a27096-1462-46cf-a026-96065573c9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainPlugin">
+      <UniqueIdentifier>{4afbd6d8-e915-42a5-a1bb-73113c06fedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainPlugin\Features">
+      <UniqueIdentifier>{8efbae6b-021f-4140-bd2a-08b2197bf35f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+#ifndef _CONTAIN_GAME_OFFSETS_H_
+#define _CONTAIN_GAME_OFFSETS_H_
+
+#define GAME_GWORLD							(0x6C54D48)
+#endif
